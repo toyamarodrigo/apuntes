@@ -313,6 +313,13 @@ body, h1, h2, h5, h6{
             display: none;
           }
 
+
+          .cafecito{
+            width:240px;
+            height:50px;
+            margin-bottom: 10px;
+          }
+
         
     }
 
@@ -432,4 +439,10 @@ body, h1, h2, h5, h6{
         .footer {
           font-family: 'Rubik', sans-serif;
           padding: 40px;
+        }
+
+
+        .cafecito{
+          width:240px;
+          height:50px;
         }
