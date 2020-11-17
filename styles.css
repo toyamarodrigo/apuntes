@@ -63,33 +63,33 @@ body, h1, h2, h5, h6{
       .item:nth-of-type(4) {
         grid-column: 2/ 3 ;
         grid-row: 3 / 4;
-        background-color: #9984A8;
+        background-color: #0081A7;
       
       }
       .item:nth-of-type(5) {
         grid-column: 3/ 3;
         grid-row: 3 / 4;
-        background-color:  #F0ADE8;
+        background-color:  #00AFB9;
        
       }
 
       .item:nth-of-type(6) {
         grid-column: 4 ;
         grid-row: 3 / 4;
-        background-color: #8597B9;
+        background-color: #5A716A;
        
-
       }
       .item:nth-of-type(7) {
-        grid-column: 1/ span 4;
+        grid-column: 1/ span 2;
         grid-row: 4;  
         padding-bottom: 0;  
-        background-color:pink;
+        background-color:#AD7A99;
       }
       .item:nth-of-type(8) {
-        grid-column: 1/ span 4;
-        grid-row: span 6;
-   
+        grid-column: 3/ span 4;
+        grid-row: 4;  
+        padding-bottom: 0;  
+        background-color: #F07167;
   
       }
 
@@ -97,11 +97,13 @@ body, h1, h2, h5, h6{
         grid-column: 1 / span 4;
         grid-row: span 4;
         background-color: wheat;
-  
       }
 
+      .item:nth-of-type(10) {
+        grid-column: 1 / span 4;
+        grid-row: span 5;  
+      }
 
-    
       .mp h5{
         font-size: 30px;
         font-family: 'Rubik', sans-serif;
@@ -130,111 +132,14 @@ body, h1, h2, h5, h6{
         padding: 20px 10px 0 10px;
       }
      }
-      @media screen and (max-width: 420px) {
-          
-          .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 100px repeat(6, 1fr) 100px;
-            }
-            .pay {
-              display: block;
-            }
-          
-            .item{
-              padding: 20px 10px 0 10px;
-            }
-            .apuntes p {
-                font-size: 40px;
-                margin: 0;
-            }
-            h6 {
-              margin-bottom:20px
-            }
-        
-            .item:nth-of-type(1) {
-              grid-column: 1 / span 2;
-              grid-row: 1;   
-              margin: 0;
-            }
-         
-            .item:nth-of-type(2) {
-               background-color: #2C2C2C;
-                grid-column: 1/ span 2;
-                grid-row: 2;
-                display: flex;
-                justify-content: space-around;
-        
-              }
-            
-              .item:nth-of-type(3) {
-                grid-column: 1/ span 2;
-                grid-row: 3/ 4;
-                background-color:  #D6D66F;
-                
-              }
-        
-              .item:nth-of-type(4) {
-                grid-column: 1/ span 2;
-                grid-row: 4 / 5;
-                background-color: #9984A8;
-              
-              }
-              .item:nth-of-type(5) {
-                grid-column: 1/ span 2;
-                grid-row: 5 / 6;
-                background-color:  #F0ADE8;
-               
-              }
-        
-              .item:nth-of-type(6) {
-                grid-column: 1/ span 2;
-                grid-row: 6 / 7;
-                background-color: #8597B9;
-               
-        
-              }
-              .item:nth-of-type(7) {
-                grid-column: 1/ span 2;
-                grid-row: 7 / 8;  
-                padding-bottom: 0;  
-                background-color:pink;
-              }
-              .item:nth-of-type(8) {
-                grid-column: span 8;
-                grid-row: span 6;
-           
-          
-              }
-        
-              .item:nth-of-type(9) {
-                grid-column: 1/ span 2;
-                grid-row: span 4;
-                background-color: wheat;
-          
-              }
-           
-            
-            .about h2{
-                display: none;
-            }
-            
-            .about p{
-                margin: 30px
-            }
-            .header p {
-              display: none;
-            }
-
-          
-      }
+  
       @media screen and (max-width: 768px){
           .container {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 100px repeat(6, 1fr) 100px;
           }
           .item{
-            padding: 20px;
+            padding-bottom: 20px;
           }
           .item:nth-of-type(1) {
             grid-column: 1 / span 3;
@@ -254,27 +159,27 @@ body, h1, h2, h5, h6{
             .item:nth-of-type(3) {
               grid-column: 1/ span 3;
               grid-row: 3/ 4;
-              background-color:  #D6D66F;
+      
               
             }
       
             .item:nth-of-type(4) {
               grid-column: 1/ span 3;
               grid-row: 4 / 5;
-              background-color: #9984A8;
+      
             
             }
             .item:nth-of-type(5) {
               grid-column: 1/ span 3;
               grid-row: 5 / 6;
-              background-color:  #F0ADE8;
+ 
              
             }
       
             .item:nth-of-type(6) {
               grid-column: 1/ span 3;
               grid-row: 6 / 7;
-              background-color: #8597B9;
+
              
       
             }
@@ -282,25 +187,141 @@ body, h1, h2, h5, h6{
               grid-column: 1/ span 3;
               grid-row: 7 / 8;  
               padding-bottom: 0;  
-              background-color:pink;
+  
             }
             .item:nth-of-type(8) {
               grid-column: span 8;
-              grid-row: span 6;
+              grid-row: span 8;
+              padding-bottom: 60px;
          
-        
             }
       
             .item:nth-of-type(9) {
               grid-column: 1/ span 3;
-              grid-row: span 4;
-              background-color: wheat;
+              grid-row: span 9;
+              font-size: 20px;
+        
+            }
+
+            .item:nth-of-type(10) {
+              grid-column: 1/ span 3;
+              grid-row: span 10;
         
             }
       
+      
       }
 
+      @media screen and (max-width: 425px) {
+          
+        .container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 100px repeat(6, 1fr) 100px;
+          }
+          .pay {
+            display: block;
+          }
+        
+          .item{
+            padding: 20px 10px 0 10px;
+          }
+          .apuntes p {
+              font-size: 40px;
+              margin: 0;
+          }
+          h6 {
+            margin-bottom:20px
+          }
+      
+          .item:nth-of-type(1) {
+            grid-column: 1 / span 2;
+            grid-row: 1;   
+            margin: 0;
+          }
+       
+          .item:nth-of-type(2) {
+             background-color: #2C2C2C;
+              grid-column: 1/ span 2;
+              grid-row: 2;
+              display: flex;
+              justify-content: space-around;
+      
+            }
+          
+            .item:nth-of-type(3) {
+              grid-column: 1/ span 2;
+              grid-row: 3/ 4;
+        
+              
+            }
+      
+            .item:nth-of-type(4) {
+              grid-column: 1/ span 2;
+              grid-row: 4 / 5;
+          
+            
+            }
+            .item:nth-of-type(5) {
+              grid-column: 1/ span 2;
+              grid-row: 5 / 6;
+       
+             
+            }
+      
+            .item:nth-of-type(6) {
+              grid-column: 1/ span 2;
+              grid-row: 6 / 7;
+    
+             
+      
+            }
+            .item:nth-of-type(7) {
+              grid-column: 1/ span 2;
+              grid-row: 7 / 8;  
+              padding-bottom: 0;  
+           
+            }
+            .item:nth-of-type(8) {
+              grid-column: span 8;
+              grid-row: span 8;
+              padding-bottom: 60px;
+         
+            }
+      
+            .item:nth-of-type(9) {
+              grid-column: 1/ span 3;
+              grid-row: span 9;
+              padding-bottom: 30px;
+            }
 
+            .item:nth-of-type(10) {
+              grid-column: 1/ span 3;
+              grid-row: span 10;
+        
+            }
+         
+          
+          .about h2{
+              display: none;
+          }
+          
+          .about p{
+              margin: 30px
+          }
+          .header p {
+            display: none;
+          }
+
+
+          .cafecito{
+            width:240px;
+            height:50px;
+            margin-bottom: 10px;
+          }
+
+        
+    }
 
 
 
@@ -418,4 +439,10 @@ body, h1, h2, h5, h6{
         .footer {
           font-family: 'Rubik', sans-serif;
           padding: 40px;
+        }
+
+
+        .cafecito{
+          width:240px;
+          height:50px;
         }
