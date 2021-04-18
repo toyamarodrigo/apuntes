@@ -132,7 +132,7 @@ body, h1, h2, h5, h6{
       .item:nth-of-type(10) {
         grid-column:  4;
         grid-row: 4 ;
-        background-color: #E2D3C0;
+        background-color: #dbe2e9;
         color: white;
         padding-bottom:10px;
   
@@ -556,11 +556,11 @@ body, h1, h2, h5, h6{
           color:C28F72
         }
         .text-git{
-          color:#A69B8D
+          color:#A3A8AD
         }
 
         .img-portada{
-          border-radius: 50%;
-          height: 180px;
-          width: 180px;
+          height: 220px;
+          width: 220px;
         }
+      
