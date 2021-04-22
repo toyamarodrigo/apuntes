@@ -510,12 +510,15 @@ body, h1, h5, h6{
             color:#464646;  
             font-family: 'Rubik', sans-serif;
         }
-        .about p{
+        .about p, .mp p{
             font-family: 'Rubik', sans-serif;
+            font-weight:300;
             font-size: 20px;
             color:#464646;
         }
+        .mp p{
 
+        }
         .link{
             text-decoration: none;
             color:#464646;
