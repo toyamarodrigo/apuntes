@@ -1,6 +1,6 @@
 
       
-body, h1, h2, h5, h6{
+body, h1, h5, h6{
     margin: 0;
     overflow-x: hidden;
     }
@@ -8,19 +8,27 @@ body, h1, h2, h5, h6{
     h6 {
       padding-bottom: 10px;
       font-size: 16px;
+       color:#464646;
+       font-family: 'PT Sans', sans-serif;
     }
 
     h5 {
       font-size: 20px;
+      color:#464646;  
+      font-family: 'PT Sans', sans-serif;
     }
     .unicornio {
       width: 90px;
       height: 90px;
       display: none;
     }
-   
+
+    
     p {
       margin-top: 0px;
+      color:#464646;
+      font-weight: 600;
+
     }
     .container {
       display: grid;
@@ -60,10 +68,7 @@ body, h1, h2, h5, h6{
         border: 0.1spx solid white;
       
     }
-    .item:hover {
-        filter: contrast(120%);
-    }
-    
+   
     
     .item:nth-of-type(1) {
       grid-column: 1 / span 4;
@@ -73,7 +78,7 @@ body, h1, h2, h5, h6{
     }
  
     .item:nth-of-type(2) {
-       background-color: #255453;
+       background-color: #F5F5F7;
         grid-column: 1/ span 3;
         grid-row: 2;
         display: flex;
@@ -86,53 +91,53 @@ body, h1, h2, h5, h6{
 
         grid-column: span 1 ;
         grid-row: 3;
-        background-color:  #DAA985;
+        background-color:  #dbf8fc;
         
       }
 
       .item:nth-of-type(4) {
         grid-column: 2/ 3 ;
         grid-row: 3 / 4;
-        background-color: #E7D3D3;
+        background-color: #FDDDC6;
       
       }
       .item:nth-of-type(5) {
         grid-column: 3/ 3;
         grid-row: 3 / 4;
-        background-color:  #FAE1C3;
+        background-color:  #E2DBA4;
        
       }
 
       .item:nth-of-type(6) {
         grid-column: 4 ;
         grid-row: 3 / 4;
-        background-color: #EECCBC;
+        background-color: #FDD8D2;
        
       }
       .item:nth-of-type(7) {
         grid-column: 1/ 2;
         grid-row: 4;  
         padding-bottom: 0;  
-        background-color:#ACD5D4;
+        background-color:#FFF0E2;
       }
       .item:nth-of-type(8) {
         grid-column: 2/  3;
         grid-row: 4;  
         padding-bottom: 0;  
-        background-color: #DBE6E9;
+        background-color: #D0D8EB;
   
       }
 
       .item:nth-of-type(9) {
         grid-column: 3 /  4;
         grid-row: 4;
-        background-color:#F1B38F;
+        background-color:#F4D9E0;
       }
 
       .item:nth-of-type(10) {
         grid-column:  4;
         grid-row: 4 ;
-        background-color: #dbe2e9;
+        background-color: #F3E4FB;
         color: white;
         padding-bottom:10px;
   
@@ -140,7 +145,7 @@ body, h1, h2, h5, h6{
       .item:nth-of-type(11) {
         grid-column:  4;
         grid-row:  2;
-        background-color: #255453;
+        background-color: #F5F5F7;
         color: white;
         padding-bottom:10px;
   
@@ -453,9 +458,9 @@ body, h1, h2, h5, h6{
         }
 
         button{
-            border:2px solid white;
+            border:2px solid #464646;
             background-color: transparent;
-            color: white;
+            color: #464646;
             padding: 10px 30px;
             text-align: center;
             cursor: pointer;
@@ -479,8 +484,8 @@ body, h1, h2, h5, h6{
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: black;
-        opacity: 0.3;
+        background-color:white;
+        opacity: 0.6;
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: 50%;
@@ -501,20 +506,19 @@ body, h1, h2, h5, h6{
        
 
         .about h2 {
-
-            font-family: 'DM Serif Text', serif;
-            font-size: 50px;
-            color: white;
+            font-size: 30px;
+            color:#464646;  
+            font-family: 'Rubik', sans-serif;
         }
         .about p{
             font-family: 'Rubik', sans-serif;
             font-size: 20px;
-            color: white;
+            color:#464646;
         }
 
         .link{
             text-decoration: none;
-            color: white  ;
+            color:#464646;
         }
 
         .tw{
@@ -533,31 +537,6 @@ body, h1, h2, h5, h6{
           padding-top: 10px;
         } 
 
-        /* FONTS COLOR */
-        .text-js{
-          color:#A17C62 ;
-        }
-        .text-react{
-          color:AB9B9B
-        }
-        .text-reacthooks{
-          color: #BAA891;
-        }
-        .text-python{
-          color:#A89085
-        }
-        .text-css{
-          color:#82A1A0
-        }
-        .text-poo{
-          color:#ADB5B8
-        }
-        .text-sql{
-          color:C28F72
-        }
-        .text-git{
-          color:#A3A8AD
-        }
 
         .img-portada{
           height: 220px;
