@@ -33,7 +33,7 @@ body, h1, h5, h6{
     .container {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: 100px repeat(3, 1fr) 100px;
+      grid-template-rows: 100px repeat(4, 1fr) 100px;
     }
     
     .header{ 
@@ -143,6 +143,14 @@ body, h1, h5, h6{
   
       }
       .item:nth-of-type(11) {
+        grid-column:  1;
+        grid-row: 5 ;
+        background-color: #cfe6de;
+        color: white;
+        padding-bottom:10px;
+  
+      }
+      .item:nth-of-type(12) {
         grid-column:  4;
         grid-row:  2;
         background-color: #F5F5F7;
@@ -151,11 +159,10 @@ body, h1, h5, h6{
   
       }
 
-      .item:nth-of-type(12) {
+      .item:nth-of-type(13) {
         grid-column: 1 / span 4;
-        grid-row:  5;  
+        grid-row:  6;  
       }
-
       .mp h5{
         font-size: 25px;
         font-family: 'Rubik', sans-serif;
