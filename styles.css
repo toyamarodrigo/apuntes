@@ -150,6 +150,7 @@ body, h1, h5, h6{
         padding-bottom:10px;
   
       }
+  
       .item:nth-of-type(12) {
         grid-column:  4;
         grid-row:  2;
@@ -215,7 +216,7 @@ body, h1, h5, h6{
         }
           .container {
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 100px repeat(7, 1fr) 100px;
+            grid-template-rows: 100px repeat(8, 1fr) 100px;
           }
           .item{
             padding-bottom: 20px;
@@ -298,6 +299,12 @@ body, h1, h5, h6{
             .item:nth-of-type(12) {
               grid-column: 1/ span 3;
               grid-row: span 10;
+        
+            }
+
+            .item:nth-of-type(13) {
+              grid-column: 1/ span 3;
+              grid-row: span 11;
         
             }
       
