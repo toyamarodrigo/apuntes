@@ -4,7 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apuntes de Majo</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Kanit|Rubik&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4465e0dafc.js" crossorigin="anonymous"></script>
   <link  rel="icon"   href="./images/favicon.svg" type="image/png" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165334841-1"></script>
@@ -18,114 +20,137 @@
 </head>
 <body>
   <section class="container">
-    <div class="item header" id="home">
-        <img class="unicornio" src="./images/logo_majo2.png" alt="">
-        <div class="div-links">    
-        <a href="https://twitter.com/MajoLedes" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/majoledesma"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/los.apuntesdemajo/" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-    </div>
 
     <div class="item about">
-        <img class="img-portada" src="./images/logo_apuntes.png"></img>
+        <img class="img-portada" src="./images/logo_lam2.png"></img>
         <div class="about-description">
-            <p>Majo here! 👋🏻, realizo apuntes a mano </br>
-            sobre las tecnologías más utilizadas.</p>
-           <p>Podes sugerirme temas en  <i class="fab fa-twitter tw"></i> <a class="link" href="https://twitter.com/MajoLedes">@majoledes</a></p>
-           <a style="text-decoration:none" href="#colaborar-apuntes"><button class="button-apuntes">Ayudame a hacer más apuntes</button></a>
+            <p>Los apuntes de Majo</p>
         </div>
-    </div>    
+    </div> 
+    
+    <div class="item description-cheatsheet">
+        <div class="description">
+            <div class="label-white label-description">
+                <p>¡Hola! En esta web vas a encontrar apuntes a mano sobre lenguajes y temas de programación.</p>
+            </div>
+        </div>
+        <a href="https://drive.google.com/file/d/11PKHOlrqduVGCpLedri40OQjEyG1grkY/view?usp=sharing" target="_blank">
+        <div class="cheatsheet">
+            <div class="label-white label-cheatsheet">
+                <p>HTML CHEATSHEET</p>
+            </div>
+        </div></a>
+    </div> 
+
+    <div class="item next">
+        <p class="next-title">Próximos</p>
+    </div> 
+
+    <div class="item  apuntes">
+        <a href="https://drive.google.com/file/d/1WqIw3tPS6gNhEnma7iHl-PEfByKSIYGK/view?usp=sharing" target="_blank">
+            <div class ="container-apuntes-button">
+            <p class="text-css">CSS</p>
+            <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+        </div> 
+            <h5 class="apuntes-level text-css">Intermedio</h5>  
+        </a>
+    </div>
 
     <div class="item apuntes js" id="apuntes">
         <a href="https://drive.google.com/open?id=11Qd_2a9YfHq7Yt4IGLXwWRs6OFpSu-6o" target="_blank">
-            <p class="text-js">JavaScript</p>
-            <h5 class= "text-js">Básico</h5>
-            <h6 class= "text-js">35 páginas </h6>
-            <button class="vr-shutter-out-vertical">VER AHORA</button>
+            <div class ="container-apuntes-button">
+                <p class="text-js">JavaScript</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class= "apuntes-level text-js">Básico</h5>   
         </a>
     </div>
+
     <div class="item  apuntes">
         <a href="https://drive.google.com/file/d/1Fn43usif0WWG3uggKxN6JpmwhbCBAvj9/view" target="_blank">
             
-            <p class="text-react">React</p>
-            <h5 class="text-react">Básico</h5>
-            <h6 class="text-react">24 páginas</h6>
-            
-            <button>VER AHORA</button>
-            
+            <div class ="container-apuntes-button">
+                <p class="text-react">React</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level text-react">Básico</h5>
         </a>
     </div>
     <div class="item apuntes rct">
         <a href="https://drive.google.com/file/d/1kzrqOTPyBsaHp_0EsBoBZyvcCS6o0pwo/view" target="_blank">
-            <p class="text-reacthooks">React Hooks</p>
-            <h5 class="text-reacthooks">Básico</h5>
-            <h6 class="text-reacthooks">12 páginas</h6>
-            <button>VER AHORA</button>
+            <div class ="container-apuntes-button">
+                <p class="text-reacthooks">React Hooks</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level text-reacthooks">Básico</h5>
         </a>    
     </div>
+
+
     <div class="item apuntes">
         <a href="https://drive.google.com/file/d/12_1yUhaGeoH7wLGqrHiSx987FMdqM_Mv/view?usp=sharing" target="_blank">
-            <p class="text-python">Python</p>
-            <h5 class="text-python">Básico</h5>
-            <h6 class="text-python">25 páginas</h6>
-            <button>VER AHORA</button>
+            <div class ="container-apuntes-button">
+                <p class="text-python">Python</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level  text-python">Básico</h5>
         </a>
     </div>
-    <div class="item  apuntes">
-        <a href="https://drive.google.com/file/d/1WqIw3tPS6gNhEnma7iHl-PEfByKSIYGK/view?usp=sharing" target="_blank">
-            
-            <p class="text-css">CSS</p>
-            <h5 class="text-css">Básico/Intermedio</h5>
-            <h6 class="text-css">62 páginas</h6>  
-            <button>VER AHORA</button>     
-        </a>
-    </div>
+
     <div class="item  apuntes">
         <a href="https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z/view?usp=sharing" target="_blank">
-            
-            <p class="text-poo">POO con Python</p>
-            <h5 class="text-poo">Intermedio</h5>
-            <h6 class="text-poo">10 páginas</h6>  
-            <button>VER AHORA</button>     
+            <div class ="container-apuntes-button">
+                <p class="text-poo">POO con Python</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level  text-poo">Intermedio</h5>   
         </a>
     </div>
-    <div class="item  apuntes">
-        <a href="https://drive.google.com/file/d/1SwcIcPijg0jSjLMAc86gDZV_iDmrKUih/view?usp=sharing" target="_blank">
-            
-            <p class="text-sql">SQL</p>
-            <h5 class="text-sql">Básico</h5>
-            <h6 class="text-sql">30 páginas</h6>  
-            <button>VER AHORA</button>     
-        </a>
-    </div>
+
     <div class="item  apuntes">
         <a href="https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view?usp=sharing" target="_blank">
-            
-            <p class="text-git">GIT</p>
-            <h5 class="text-git">Básico<h5>
-            <h6 class="text-git">11 páginas</h6>  
-            <button>VER AHORA</button>     
+            <div class ="container-apuntes-button">
+                <p class="text-git">Git</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level  text-git">Básico<h5> 
         </a>
     </div>
+
+
+    <div class="item  apuntes">
+        <a href="https://drive.google.com/file/d/1SwcIcPijg0jSjLMAc86gDZV_iDmrKUih/view?usp=sharing" target="_blank">
+            <div class ="container-apuntes-button">
+                <p class="text-sql">SQL</p>
+                <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button>
+            </div> 
+            <h5 class="apuntes-level text-sql">Básico</h5>     
+        </a>
+    </div>
+    
+
     <div class="item  apuntes">
         <a href="" target="_blank">
-            
-            <p class="text-git">DeFi</p>
-            <h5 class="text-git">Básico<h5>
-            <h6 class="text-git"></h6>  
-            <button>SOON</button>     
+            <div class ="container-apuntes-button container-next">
+                <div class ="label-white label-next">
+                    <p class="text-defi">Defi</p>
+                </div>
+              <!--<  <button><img class="icon-next" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png"/></img></button> -->
+            </div> 
+           <!--< <h5 class="apuntes-level text-defi">Básico<h5>     -->
         </a>
     </div>
-    <div class="item mp" id="colaborar-apuntes">
-        <div>
-            <h5>Ayudame a seguir haciendo apuntes🙈</h5>
-            <p>Si te sirvieron y te interesa colaborar, podes ayudarme a través de Cafecito.</p>
-            <a href='https://cafecito.app/majoledes' rel='noopener' target='_blank'><img  srcset='https://cdn.cafecito.app/imgs/buttons/button_1.png 1x, https://cdn.cafecito.app/imgs/buttons/button_1_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_1_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_1.png' alt='Invitame un café en cafecito.app' /></a>
-            </div> 
-        </div>
-    <div class="item footer">
-        Hecho a mano con 🏄🏻‍♀️
+
+    <div class="item social-media" id="home">
+        <div>    
+            <p>¡Seguime en las redes!</p>
+            <div class="div-links">
+        <a href="https://twitter.com/MajoLedes" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/majoledesma"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/los.apuntesdemajo/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div></div>
     </div>
+    <!--<a href='https://cafecito.app/majoledes' rel='noopener' target='_blank'><img  srcset='https://cdn.cafecito.app/imgs/buttons/button_1.png 1x, https://cdn.cafecito.app/imgs/buttons/button_1_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_1_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_1.png' alt='Invitame un café en cafecito.app' /></a>-->
+
 </body>
 </html>
