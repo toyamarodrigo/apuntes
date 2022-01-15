@@ -61,9 +61,17 @@ body, h1, h5, h6, p{
     margin: 0px 15px 15px 0;
   }
   .apuntes a {
+      display: block;
+      height: 100%;
       font-family: 'Nunito Sans', sans-serif;
       text-decoration: none;
       font-size: 26px;
+  }
+
+  .apuntes .apuntes-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .apuntes p {
@@ -243,11 +251,12 @@ body, h1, h5, h6, p{
       .container-apuntes-button {
         display:flex;
         justify-content:space-between;
+        height: 100%;
       }
       .icon-next {
         width: 20;
         height: 20;
-        margin: 20px 20px 0 0;
+        margin: 0 20px 0 0;
       }
 
       .container-next {
